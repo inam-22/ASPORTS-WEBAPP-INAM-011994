@@ -1,0 +1,278 @@
+.navbar{
+    background-color:#2F4F4F !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+.navbar-brand>img{
+    width: 200px;
+    height: 60px;
+}
+.fa-shopping-cart,.fa-user-circle{
+    font-size: 32px !important;
+}
+.carousel-item>img{
+      width: 500px;
+      height:500px
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 42px !important;
+    margin-right:10px;
+    color: #2F4F4F;
+}
+.h3{
+    color:#2f4f4f ;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #2F4F4F;
+    
+}
+.asp{
+    color: #fff;
+    text-shadow:4px 4px 10px #ccc;
+}
+.mainCard{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+.okp{
+    margin-top:-8%;
+}
+
+.card{
+    
+    height: 250px;
+    width:250px; 
+    margin-top: 200px; 
+    box-shadow: 2px 4px 10px #2f4f4f;
+    
+}
+.card-title{
+    font-weight: bold;
+    color: #2f4f4f;
+} 
+.btn-primary{
+    width: 100%;
+    background-color:#2f4f4f ;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (max-width:1200px){
+    .container{
+         padding-right: 50px;
+    
+    }
+}
+@media screen and (max-width:1450px) and (max-width:1250px){
+    .head>h1{
+         position: absolute;
+         right: 50px;
+
+    
+    }
+}
+
+.container{
+    margin-top: -70px;
+}
+.head{
+
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+    color:#2f4f4f ;
+    margin-top: 250px; 
+    padding-left: 550px; 
+}
+.head>h1{
+    font-size: 50px;
+}
+
+.copr{
+    
+    width: 100%;
+    background-color: #2f4f4f;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    margin-top: 230px;
+
+}
+@media all and (max-width:900px){
+    .bc>h1,.ballc>h1{
+        
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+.bc{
+    font-weight: bold;
+    
+    text-align: center;
+    
+}
+.bc>h1{
+    font-size: 60px;
+    margin-top: 100px;
+    color: #2f4f4f;
+    text-shadow: 4px 4px 10px #2f4f4f;
+    
+}
+.ballc{
+    font-weight: bold;
+    text-align: center;
+}
+.ballc>h1{
+    font-size: 60px;
+    margin-top: 360px;
+    color: #2f4f4f;
+    text-shadow: 4px 4px 10px #2f4f4f;
+}
+.okp-b{
+    margin-top: 100px;
+}
+* {
+    box-sizing: border-box;
+  }
+  @media all and (max-width:1450px){
+      div.columnc>form{
+          width: 100%;
+          margin-left: -480px;
+      }
+  }
+  
+  .conH{
+      font-weight: bold;
+      font-size: 80px;
+      text-align: center;
+      color: #2f4f4f;
+      text-shadow: 10px 5px 5px grey ;
+  }
+  .conp{
+      font-size: 30px;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    margin-left: 480px;
+  }
+  
+  input[type=submit] {
+    background-color:#2f4f4f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .containerc {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    
+    
+  }
+  
+  /* Create two columns that float next to eachother */
+  .columnc {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .rowc:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  input[type=submit]{
+    margin-left: 480px;
+}
+.columnc>form>label{
+    margin-left: 480px;
+}
+@media all and (max-width:985px){
+    .about-section{
+        
+        height: 4100px !important;   
+    }
+    
+}
+@media  (max-width:375px){
+    .abh,.abp{
+         
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+
+
+.about-section {
+    text-align: center;
+
+   background-color:#474e5d;
+   padding: 150px;
+   height: 742px;
+   
+  }
+  .abh{
+      font-size: 70px;
+      color:#fff ;
+      text-shadow: 4px 4px 10px #fff;
+      
+      
+  }
+  .abp{
+      color: #fff;
+      font-size: 25px;
+      margin-top: 40px;
+  }
+  .yc{
+    font-size: 100px;
+    text-align: center;
+    color: #2F4F4F;
+    text-shadow: 4px 4px 10px #2F4F4F;
+    
+  }
+  
